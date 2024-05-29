@@ -1,0 +1,329 @@
+body.dark {
+  background-color: hsl(230, 17%, 14%);
+  font-family: sans-serif;
+}
+
+body.light {
+  background-color: hsl(0, 0%, 100%);
+  font-family: sans-serif;
+  color: black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container1 {
+  width: 80%;
+}
+
+header section:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.Title .Title1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: aliceblue;
+}
+
+body.dark .Title .Title1 {
+  color: aliceblue;
+}
+
+body.light .Title .Title1 {
+  color: hsl(230, 17%, 14%);
+}
+.Title .Title2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(106, 106, 128);
+}
+
+.buttontitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+body.light .buttontitle .titlebtn {
+  color: black;
+}
+
+.button {
+  width: 40px;
+  min-width: 40px;
+  height: 24px;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%),
+    hsl(146, 68%, 55%)
+  );
+}
+
+.buttoncircle {
+  margin: 2px 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: hsl(230, 17%, 14%);
+  transition: 0.2s;
+}
+
+header section:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row1 {
+  padding: 25px 30px;
+  background-color: rgba(62, 62, 104, 0.418);
+  text-align: center;
+  border-radius: 5px;
+  margin-right: -5px;
+  padding-left: -50;
+  width: 180px;
+}
+
+.headerfacebook {
+  margin: 10px 0 10px 0;
+  color: rgb(106, 106, 128);
+  font-weight: 700;
+}
+
+.headerfacebookname {
+  font-size: 13px;
+  padding: 10px;
+}
+
+.no {
+  font-size: 50px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.headertwitter {
+  margin: 10px 0 10px 0;
+  color: rgb(106, 106, 128);
+  font-weight: 700;
+}
+
+.headertwittername {
+  font-size: 13px;
+  padding: 10px;
+}
+
+.headerinstagram {
+  margin: 10px 0 10px 0;
+  color: rgb(106, 106, 128);
+  font-weight: 700;
+}
+
+.headerinstagramname {
+  font-size: 13px;
+  padding: 10px;
+}
+
+.headeryoutube {
+  margin: 10px 0 10px 0;
+  color: rgb(106, 106, 128);
+  font-weight: 700;
+}
+
+.headeryoutubename {
+  font-size: 13px;
+  padding: 10px;
+}
+
+.followers {
+  color: rgb(106, 106, 128);
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.day {
+  padding-top: 20px;
+}
+.today {
+  color: rgb(0, 114, 0);
+  font-weight: bolder;
+}
+
+.today-y {
+  color: red;
+  font-weight: bolder;
+}
+
+.row1:nth-child(1) {
+  border-top: 3px solid rgb(0, 132, 255);
+}
+.row1:nth-child(2) {
+  border-top: 3px solid rgba(0, 162, 255, 0.747);
+}
+.row1:nth-child(3) {
+  border-top: 3px solid rgba(255, 136, 0, 0.774);
+}
+.row1:nth-child(4) {
+  border-top: 3px solid rgba(255, 0, 0, 0.774);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 32px;
+  color: aliceblue;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: rgba(62, 62, 104, 0.418);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box .top span:first-child {
+  color: rgb(106, 106, 128);
+}
+
+.box .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.box .bottom span:first-child {
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.box .bottom span:last-child {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: green;
+  font-weight: bolder;
+}
+
+.box .bottom img {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container1 {
+    width: 100%;
+  }
+
+  header section:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .Title .Title1 {
+    font-size: 24px;
+  }
+
+  .Title .Title2 {
+    font-size: 14px;
+  }
+
+  .buttontitle {
+    margin-top: 10px;
+  }
+
+  header section:last-child {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button {
+    display: flex;
+    float: right;
+    margin-left: 250px;
+  }
+
+  .row1 {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .no {
+    font-size: 40px;
+  }
+
+  .followers {
+    font-size: 12px;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin: 20px;
+  }
+
+  .box {
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .box .bottom {
+    font-size: 20px;
+  }
+
+  .box .bottom span:last-child {
+    font-size: 12px;
+  }
+}

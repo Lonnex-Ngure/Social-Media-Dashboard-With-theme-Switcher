@@ -1,0 +1,102 @@
+{
+  "socialMedia": [
+    {
+      "id": 1,
+      "platform": "facebook",
+      "username": "@lonnex ngure",
+      "followers": 3500,
+      "todayChange": 25,
+      "changeDirection": "up"
+    },
+    {
+      "id": 2,
+      "platform": "twitter",
+      "username": "@Lonnexquez",
+      "followers": 1500,
+      "todayChange": 150,
+      "changeDirection": "up"
+    },
+    {
+      "id": 3,
+      "platform": "instagram",
+      "username": "@bam-baby",
+      "followers": 14000,
+      "todayChange": 700,
+      "changeDirection": "up"
+    },
+    {
+      "id": 4,
+      "platform": "youtube",
+      "username": "Lonnex W.",
+      "followers": 9000,
+      "todayChange": -100,
+      "changeDirection": "down"
+    }
+  ],
+  "overview": [
+    {
+      "id": 1,
+      "metric": "Page Views",
+      "platform": "facebook",
+      "value": 90,
+      "change": 3,
+      "changeDirection": "up"
+    },
+    {
+      "id": 2,
+      "metric": "Likes",
+      "platform": "facebook",
+      "value": 52,
+      "change": -2,
+      "changeDirection": "down"
+    },
+    {
+      "id": 3,
+      "metric": "Likes",
+      "platform": "instagram",
+      "value": 5462,
+      "change": 2257,
+      "changeDirection": "up"
+    },
+    {
+      "id": 4,
+      "metric": "Profile Views",
+      "platform": "instagram",
+      "value": 52000,
+      "change": 1375,
+      "changeDirection": "up"
+    },
+    {
+      "id": 5,
+      "metric": "Retweets",
+      "platform": "twitter",
+      "value": 117,
+      "change": 303,
+      "changeDirection": "up"
+    },
+    {
+      "id": 6,
+      "metric": "Likes",
+      "platform": "twitter",
+      "value": 507,
+      "change": 553,
+      "changeDirection": "up"
+    },
+    {
+      "id": 7,
+      "metric": "Likes",
+      "platform": "youtube",
+      "value": 107,
+      "change": -19,
+      "changeDirection": "down"
+    },
+    {
+      "id": 8,
+      "metric": "Total Views",
+      "platform": "youtube",
+      "value": 1407,
+      "change": -12,
+      "changeDirection": "down"
+    }
+  ]
+}
